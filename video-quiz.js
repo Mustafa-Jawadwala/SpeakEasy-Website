@@ -8,7 +8,7 @@ const videoLessons = {
     1: {
         title: "Lesson 1: Hello and Greetings 👋",
         description: "Learn how to say hello, goodbye, and greet your friends!",
-        videoSrc: "videos/lesson1.mp4" , // YouTube video ID (placeholder)
+        videoSrc: "<iframe src="https://player.vimeo.com/video/1149690739?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="lesson1"></iframe>"
         quizzes: [
             {
                 id: 1,
@@ -440,4 +440,5 @@ function showVideoQuizResults(correct, total) {
     resultsDiv.classList.remove('hidden');
     resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
+
 

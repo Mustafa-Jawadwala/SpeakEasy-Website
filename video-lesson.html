@@ -19,7 +19,8 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">SpeakEasy</div>
+            <a href="index.html">
+            <div class="logo">SpeakEasy</div></a>
             <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
@@ -50,12 +51,14 @@
                 
                 <div class="video-player-wrapper">
                     <div class="video-wrapper">
-                        <video 
+                        <iframe
                             id="videoPlayer"
-                            controls 
-                            preload="metadata"
-                            style="width:100%; border-radius:15px;">
-                        </video>
+                            src=""
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+
 
                     </div>
                 </div>
@@ -64,7 +67,7 @@
             <!-- Quiz Section -->
             <div class="video-quiz-section">
                 <h2 class="section-title">Test What You Learned! 🧠</h2>
-                <p class="section-intro">Answer these 3 questions about the video!</p>
+                <p class="section-intro">Answer these  questions about the video!</p>
                 
                 <div class="video-quizzes-container" id="videoQuizzes"></div>
                 
@@ -81,12 +84,11 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 SpeakEasy. Made with ❤️ for kids everywhere!</p>
+        <p>&copy; 2024 SpeakEasy. Made with ❤️ for kids everywhere!</p>
     </footer>
 
     <script src="script.js"></script>
     <script src="video-quiz.js"></script>
 </body>
 </html>
-
 

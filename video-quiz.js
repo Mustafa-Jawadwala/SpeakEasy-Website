@@ -38,41 +38,9 @@ const videoLessons = {
         ]
     },
     2: {
-        title: "Lesson 2: Framing Sentences",
-        description: "Discover all the beautiful colors around you!",
+        title: "Lesson 2: Colours & Naming Things",
+        description: "Learn basic colours and how to identify everyday objects",
         videoSrc: "https://player.vimeo.com/video/1162179981",
-        quizzes: [
-            {
-    id: 1,
-    question: "Choose the correct sentence:",
-    options: ["I student am", "I am a student", "Am I student"],
-    correct: 1
-},
-{
-    id: 2,
-    question: "Which sentence is correct?",
-    options: ["Name my Vivan is", "My name is Vivan", "Name is my Vivan"],
-    correct: 1
-},
-{
-    id: 3,
-    question: "“My ice-cream is melting.” is a:",
-    options: ["Question", "Sentence", "Word"],
-    correct: 1
-},
-{
-    id: 4,
-    question: "Which one is a sentence?",
-    options: ["watching movie", "I watch movie.", "Movie watch"],
-    correct: 1
-}
-
-        ]
-    },
-    3: {
-        title: "Lesson 3: Colours & Naming Things",
-        description: "Count from 1 to 10 and have fun with numbers!",
-        videoSrc: "https://player.vimeo.com/video/1162180113",
         quizzes: [
             {
     id: 1,
@@ -101,12 +69,14 @@ const videoLessons = {
 
         ]
     },
-    4: {
-        title: "Lesson 4: Numbers & Simple Sentences",
-        description: "Meet all the amazing animals and learn their names!",
-        videoSrc: "https://player.vimeo.com/video/1162180229",
+    
+    
+    3: {
+        title: "Lesson 3: Numbers & Simple Sentences",
+        description: "Learn numbers and practice using them in simple sentences.",
+        videoSrc: "https://player.vimeo.com/video/1162447575",
         quizzes: [
-            {
+            {   
     id: 1,
     question: "Which number comes after Four?",
     options: ["One", "Five", "Four"],
@@ -133,10 +103,10 @@ const videoLessons = {
 
         ]
     },
-    5: {
-        title: "Lesson 5: Is / Am / Are",
-        description: "Learn words for mom, dad, sister, brother, and more!",
-        videoSrc: "https://player.vimeo.com/video/1162279382",
+    4: {
+        title: "Lesson 4: Is / Am / Are",
+        description: "Learn how to use “is,” “am,” and “are” correctly in sentences.",
+        videoSrc: "https://player.vimeo.com/video/1162180229",
         quizzes: [
             {
     id: 1,
@@ -165,10 +135,10 @@ const videoLessons = {
 
         ]
     },
-    6: {
-        title: "Lesson 6: Daily Action Words (Verbs)",
-        description: "Yummy foods and how to say their names in English!",
-        videoSrc: "https://player.vimeo.com/video/1162180466",
+    5: {
+        title: "Lesson 5: Daily Action Words (Verbs)",
+        description: "Learn common action words used in everyday activities",
+        videoSrc: "https://player.vimeo.com/video/1162279382",
         quizzes: [
             {
     id: 1,
@@ -197,10 +167,10 @@ const videoLessons = {
 
         ]
     },
-        7: {
-    title: "Lesson 7: WH Questions",
+        6: {
+    title: "Lesson 6: WH Questions",
     description: "Learn how to ask questions using who, what, when, where, why, and how",
-    videoSrc: "https://player.vimeo.com/video/1162279568",
+    videoSrc: "https://player.vimeo.com/video/1162180466",
     quizzes: [
         {
     id: 1,
@@ -229,42 +199,43 @@ const videoLessons = {
 
     ]
 },
-    8: {
-        title: "Lesson 8: Classroom English",
-        description: "Learn about your eyes, nose, mouth, and more!",
-        videoSrc: "https://player.vimeo.com/video/1162180566",
-        quizzes: [
-            {
-    id: 1,
-    question: "Teacher says: “_ your book.”",
-    options: ["Close", "Open", "Throw"],
-    correct: 1
+7: {
+    title: "Lesson 7: Framing Sentences",
+    description: "Learn how to arrange words correctly to make meaningful sentences",
+    videoSrc: "https://player.vimeo.com/video/1162279568",
+    quizzes: [
+        {
+id: 1,
+question: "Choose the correct sentence:",
+options: ["I student am", "I am a student", "Am I student"],
+correct: 1
 },
 {
-    id: 2,
-    question: "What do students do when teacher says “Sit down”?",
-    options: ["Stand", "Sit", "Run"],
-    correct: 1
+id: 2,
+question: "Which sentence is correct?",
+options: ["Name my Vivan is", "My name is Vivan", "Name is my Vivan"],
+correct: 1
 },
 {
-    id: 3,
-    question: "“This is my book.” is used in:",
-    options: ["Playground", "Classroom", "Market"],
-    correct: 1
+id: 3,
+question: "“My ice-cream is melting.” is a:",
+options: ["Question", "Sentence", "Word"],
+correct: 1
 },
 {
-    id: 4,
-    question: "Which one of these does not belong inside a classroom?",
-    options: ["Book", "Bench", "Ball"],
-    correct: 2
+id: 4,
+question: "Which one is a sentence?",
+options: ["watching movie", "I watch movie.", "Movie watch"],
+correct: 1
 }
 
-        ]
-    },
-    9: {
-        title: "Lesson 9: Describing Things (Adjectives)",
-        description: "Run, jump, dance! Learn action words!",
-        videoSrc: "https://player.vimeo.com/video/1162180695",
+    ]
+},
+
+    8: {
+        title: "Lesson 8: Describing Things (Adjectives)",
+        description: "Learn words that describe size, feelings, and qualities of objects.",
+        videoSrc: "https://player.vimeo.com/video/1162180566",
         quizzes: [
             {
     id: 1,
@@ -293,10 +264,10 @@ const videoLessons = {
 
         ]
     },
-    10: {
-        title: "Lesson 10: Feelings & Polite Words",
-        description: "Sunny, rainy, or snowy? Learn weather words!",
-        videoSrc: "https://player.vimeo.com/video/1162180748",
+    9: {
+        title: "Lesson 9: Feelings & Polite Words",
+        description: "Learn words for emotions and polite expressions used in daily life",
+        videoSrc: "https://player.vimeo.com/video/1162180695",
         quizzes: [
             {
     id: 1,
@@ -321,6 +292,39 @@ const videoLessons = {
     question: "“I am sad” shows:",
     options: ["Colour", "Feeling", "Action"],
     correct: 1
+}
+
+        ]
+    },
+
+    10: {
+        title: "Lesson 10: Classroom English",
+        description: "Learn about your eyes, nose, mouth, and more!",
+        videoSrc: "https://player.vimeo.com/video/1162180748",
+        quizzes: [
+            {
+    id: 1,
+    question: "Teacher says: “_ your book.”",
+    options: ["Close", "Open", "Throw"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "What do students do when teacher says “Sit down”?",
+    options: ["Stand", "Sit", "Run"],
+    correct: 1
+},
+{
+    id: 3,
+    question: "“This is my book.” is used in:",
+    options: ["Playground", "Classroom", "Market"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "Which one of these does not belong inside a classroom?",
+    options: ["Book", "Bench", "Ball"],
+    correct: 2
 }
 
         ]

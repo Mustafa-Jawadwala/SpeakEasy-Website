@@ -364,7 +364,7 @@ correct: 1
     12: {
     title: "Lesson 12: Small Conversation – Two Friends",
     description: "Learn how friends talk politely and kindly!",
-    videoSrc: "https://player.vimeo.com/video/1162297977",
+    videoSrc: "https://player.vimeo.com/video/1162867398",
     quizzes: [
         {
             id: 1,
@@ -579,4 +579,5 @@ function showVideoQuizResults(correct, total) {
     resultsDiv.classList.remove('hidden');
     resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
+
 
